@@ -1,0 +1,352 @@
+#head {
+    margin-top: 100px;
+    padding: 50px;
+
+    a {
+        float: right;
+        text-decoration: none;
+        color: black;
+        margin-top: -55px;
+    }
+}
+
+.Product {
+    color: gray;
+
+    img {
+        width: 200px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        margin-left: 220px;
+        margin-top: -250px;
+        color: black;
+    }
+
+    h3 {
+        margin-left: 220px;
+    }
+}
+
+.Quantity {
+    color: gray;
+    margin-left: 800px;
+    margin-top: -55px;
+
+    input {
+        width: 50px;
+        height: 30px;
+        vertical-align: 10px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.Total {
+    color: gray;
+    float: right;
+    margin-top: -43px;
+    margin-right: 20px;
+}
+
+#check {
+    float: right;
+
+    h1 {
+        margin-left: 60px;
+    }
+
+    h3 {
+        float: right;
+        color: gray;
+        margin-top: -50px;
+    }
+
+    a {
+        margin-bottom: 50px;
+        float: right;
+        margin-top: -10px;
+    }
+
+    button {
+        background-color: black;
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+
+        h1 {
+            color: white;
+            margin-right: 50px;
+            vertical-align: middle;
+            margin-bottom: -2px;
+            margin-top: -1px;
+        }
+    }
+
+    margin-right: 20px;
+}
+
+#lingh {
+    height: 1310px;
+    float: right;
+    width: 35%;
+    margin-bottom: -40px;
+}
+
+.head {
+    z-index: 1000;
+}
+
+#whatsap {
+    z-index: 1000;
+}
+
+#Customer {
+    z-index: 1000;
+
+}
+
+#discount {
+    margin-top: -50px;
+    padding: 40px;
+    float: right;
+    background-color: gainsboro;
+    width: 100%;
+    height: 444px;
+    position: sticky;
+    z-index: 1;
+    top: 110px;
+    right: 0px;
+
+    img {
+        width: 70px;
+        height: 70px;
+
+    }
+
+    p {
+        margin-left: 80px;
+        margin-top: -14px;
+    }
+
+    h3 {
+        margin-left: 80px;
+        margin-top: -75px;
+    }
+
+    h4 {
+        float: right;
+        margin-top: -130px;
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    button {
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        float: right;
+        margin-top: -45px;
+    }
+}
+
+#main {
+    margin-top: 150px;
+    margin-left: 100px;
+
+    h2 {
+        margin-left: 0px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    a {
+        margin-bottom: 50px;
+        float: right;
+        margin-top: -10px;
+    }
+
+    button {
+        background-color: black;
+        float: left;
+        width: 600px;
+        height: 50px;
+        margin-right: 630px;
+        border-radius: 10px;
+        margin-top: -80px;
+
+        h1 {
+            color: white;
+            margin-right: 50px;
+            vertical-align: middle;
+            margin-bottom: -2px;
+            margin-top: -1px;
+        }
+    }
+
+    input {
+        width: 600px;
+        height: 50px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    select {
+        width: 600px;
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin-top: 20px;
+    }
+
+    .left {
+        float: left;
+        width: 275px;
+        float: right;
+        margin-right: 165px;
+        margin-top: 20px;
+    }
+
+    .right {
+        width: 275px;
+        margin-top: 20px;
+    }
+
+    #checkbox {
+        width: 15PX;
+        height: 15PX;
+    }
+}
+
+#Payment {
+    width: 600px;
+    background-color: gainsboro;
+    height: 370px;
+    border-radius: 20px;
+
+    input {
+        width: 500px;
+        margin: auto;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    #left {
+        width: 225px;
+        margin-right: 50px;
+    }
+
+    #right {
+        width: 225px;
+        margin-right: 50px;
+        margin-top: -55px;
+        float: right;
+    }
+}
+
+#had {
+    padding: 20px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 3px;
+    border-radius: 20px;
+
+    h1 {
+        margin-top: -0px;
+    }
+
+    img {
+        margin-left: 20px;
+        float: right;
+        width: 50px;
+        height: 35px;
+        margin-top: -57px;
+    }
+
+    #visa {
+        margin-right: 60px;
+    }
+}
+
+#control {
+    margin-top: 150px;
+}
+
+#img {
+    width: 300px;
+    height: 400px;
+    background-image: url(product\ 7.jpg);
+    background-size: 300px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+#add {
+    background-color: gainsboro;
+    margin-top: -490px;
+    float: right;
+    width: 550px;
+    padding: 20px;
+    border-radius: 20px;
+    label{
+        margin-right: 40px;
+    }
+    textarea{
+        width: 300px;
+        height: 50px;
+    }
+    #width{
+        width: 300px;
+    }
+    button{
+        width: 308px;
+        margin-top: 30px;
+        background-color: black;
+        color: white;
+    }
+}
+
+#perfect{
+    margin-top: 350px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(94, 9, 9);
+}
+.addtocart{
+    width: 50px; 
+    height: 40px;
+    margin-left: 70px;
+    
+}
+
+#sticker{
+    img{
+        width: 200px;
+        margin-left: 180px;
+    }
+    margin-top: 30px;
+}
+#sticker2{
+b{
+    vertical-align: 10px;
+    margin-left: 180px;
+    font-size: x-large;
+}
+.a{
+    margin-left: 200px;
+}
+.c{
+    margin-left: 180px;
+}
+}
