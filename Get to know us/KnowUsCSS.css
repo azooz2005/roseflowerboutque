@@ -1,0 +1,157 @@
+#idea {
+    margin-top: 150px;
+}
+
+p {
+    font-size: x-large;
+}
+
+section {
+    font-size: x-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main {
+
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    div {
+        padding-top: 50px;
+        width: 400px;
+
+    }
+}
+
+#message {
+    margin-left: 50px;
+}
+
+#values {
+    margin-left: 465px;
+    margin-top: -535px;
+    margin-bottom: 50px;
+}
+
+#vision {
+    margin-top: -1000px;
+    margin-right: 50px;
+    float: right;
+}
+
+#Beginning {
+    width: 600px;
+    float: left;
+    margin-top: 150px;
+}
+
+.line1 {
+    float: right;
+    margin-top: -220px;
+    margin-right: 375px;
+}
+
+.mom {
+    background-image: url(img/mom.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 210px;
+    width: 350px;
+    height: 350px;
+}
+
+#Starting {
+    margin-top: 540px;
+    width: 600px;
+    margin-left: 520px;
+}
+
+#store1 {
+    margin-top: -290px;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+}
+
+#line2 {
+    float: right;
+    margin-right: 470px;
+    margin-top: -250px;
+}
+
+#Expansion {
+    width: 600px;
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+#farm {
+    float: right;
+    margin-top: -360px;
+
+    img {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+#line3 {
+    margin-top: -20px;
+    margin-left: 160px;
+}
+
+#Delivery {
+    width: 600px;
+    margin-left: 500px;
+    margin-top: -30px;
+}
+
+#Transformation {
+    width: 600px;
+    margin-top: 140px;
+    margin-left: 150px;
+}
+
+#logo2 {
+    img {
+        width: 400px;
+        height: 200px;
+    }
+
+    float: right;
+    margin-top: -300px;
+}
+
+.Main-title{
+    color: rgb(94, 9, 9);
+    margin-left: 140px;
+    margin-top: 150px;
+}
+
+.Secondary-title{
+    color: rgb(94, 9, 9); 
+    text-transform: capitalize;
+}
+
+.div{
+    margin: auto;
+    width: 80%;
+}
+
+.div-p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+    line-height: 40px;
+}
+
+section{
+    font-weight: bold;
+}
