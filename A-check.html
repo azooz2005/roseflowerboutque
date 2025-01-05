@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>check</title>
+    <link rel="stylesheet" href="topdottom/css.css">
+    <link rel="stylesheet" href="cart/cart.css">
+</head>
+
+<body>
+    <div class="head">
+        <a href="menu.html"></a>
+        <div class="mobile-container">
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <div id="myLinks">
+                    <br><br><br><br><br><br>
+                    <h2>CATEGORY:</h2>
+                    <h3><a href="C-HandBouquets.html">Hand Bouquets</a></h3>
+                    <h3><a href="C-flowerInVase.html">Flower in vase</a></h3>
+                    <h3><a href="C-indoorPlants.html">Indore plants</a></h3>
+                    <h3><a href="C-ArtificialRose.html">Artificial rose</a></h3>
+                    <h3><a href="C-TeddyBears.html">Teddy bears</a></h3>
+                    <h3><a href="C-Chocolate.html">Chocolate</a></h3>
+                    <h2>Get to know us:</h2>
+                    <h3><a href="G-AboutUs.html">About us</a></h3>
+                    <h3><a href="G-history.html">Our history</a></h3>
+                    <h3><a href="G-PrivacyPolicy.html">Privacy policy</a></h3>
+                    <h3><a href="G-TermsAndConditions.html">Return Policy</a></h3>
+                    <h3><a href="G-TermsAndConditions2.html">Terms and conditions</a></h3>
+                    <h2>Customer service:</h2>
+                    <h3><a href="T-Contact.html">Contact us</a></h3>
+                    <h3><a href="T-comment.html">Add comment</a></h3>
+                    <h3><a href="https://wa.me/+962779464018">Whats:+962779464018</a></h3>
+                </div>
+                <a href="javascript:void(0);" class="icon2" onclick="Function()">
+                    <img src="home/img/menu.png" alt="menu">
+                </a>
+            </div>
+            <!-- End smartphone / tablet look -->
+        </div>
+        <script>
+            function Function() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <button onclick="showPopup()" class="forgotpass" id="button"></button>
+        <div class="popup-overlay" id="popup">
+            <div class="popup-content">
+                <input type="email" id="email" placeholder="search" required>
+                <button onclick="closePopup()">search</button>&nbsp;
+                <button class="close-btn" onclick="closePopup()">cancel</button>
+            </div>
+            <script>
+                function showPopup() {
+                    const popup = document.getElementById('popup');
+                    popup.style.display = 'flex';
+                }
+
+                function closePopup() {
+                    const popup = document.getElementById('popup');
+                    popup.style.display = 'none';
+                }
+            </script>
+        </div>
+        <a href="log.html"><img src="home/img/login.png" alt="login"></a>
+        <a href="index.html"><img id="logo" src="home/img/Rose.png" alt="logo"></a>
+        <a href=""><img id="Countries" src="home/img/3lm.png" alt="Countries"></a>
+        <select>
+            <option>English</option>
+            <option>Arabic</option>
+        </select>
+        <a href="A-Cart.html"><img id="Shopping" src="home/img/shopping1.png" alt="Shopping cart"></a>
+    </div>
+    <div id="whatsap"><a href="https://wa.me/+962779464018"><img src="home/img/whatsap.png" alt=""></a></div>
+    <div id="Customer"><a href="T-Contact.html"><img src="home/img/Customer.png" alt=""></a></div>
+
+    <div id="lingh">
+        <div id="discount">
+            <img src="CATEGORY/Hand Bouquets/product 7.jpg" alt="">
+            <h3>Hand Bouquets</h3>
+            <p>
+                30-JOD<br>
+                Send it as a gift: Yes<br>
+                Hide Sender Details : Yes<br>
+                Gift Card Message : I love you<br>
+                Pick a delivery Date: 2024-12-27
+            </p>
+            <h4>30-JOD</h4>
+            <input type="text" placeholder="discount code">
+            <button>Apply</button>
+            <h1>Total</h1>
+            <h2>30-JOD</h2>
+        </div>
+    </div>
+    <div id="main">
+        <h1>contat</h1>
+        <input type="text" placeholder="Email or phone number" required>
+        <h1>Delivery</h1>
+        <select>
+            <option>country</option>
+            <option>Jordan</option>
+        </select>
+        <input type="text" placeholder="Last name" class="left" required>
+        <input type="text" placeholder="First name" class="right" required>
+        <input type="text" placeholder="Address" required>
+        <input type="text" placeholder="Apartment,Suite,ets.(optional)">
+        <input type="text" placeholder="city" required>
+        <input type="number" placeholder="phone" required><br>
+        <input type="checkbox" id="checkbox"><label for="checkbox">Save this information for next time</label>
+        <h1>Payment</h1>
+        <div id="Payment">
+            <div id="had">
+                <h1>Credit card</h1>
+                <img src="cart/visa.png" alt="visa" id="visa">
+                <img src="cart/mastercard.png" alt="mastercard" id="mastercard">
+            </div>
+            <input type="text" placeholder="Card number" required>
+            <input type="text" placeholder="Expiration date (MM/YY)" id="left" required>
+            <input type="text" placeholder="Card number" id="right" required>
+            <input type="text" placeholder="Card name" required>
+            <input type="checkbox" id="checkbox"><label for="checkbox">
+                Use shipping address as billing address</label>
+                <br>
+        </div>
+        <a href="A-check.html"><button><h2>pay now</h2></button></a>
+    </form>
+    </div>
+
+
+    <table class="table">
+        <tr>
+            <td class="icon">
+                <h1>Social Media:</h1>
+                <a href="https://web.facebook.com/profile.php?id=100004461702209&locale=ar_AR"><img
+                        src="topdottom/img/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/azooz_si/"><img src="topdottom/img/insta.svg" alt="insta"></a>
+                <a href=""><img src="topdottom/img/snap.svg" alt="snap"></a>
+                <a href=""><img src="topdottom/img/x.svg" alt="x"></a>
+                <a href=""><img src="topdottom/img/in.svg" alt="in"></a>
+                <a href=""><img src="topdottom/img/youtube.svg" alt="youtube"></a>
+            </td>
+            <td rowspan="5">
+                <h1>CATEGORY:</h1>
+                <h3><a href="C-HandBouquets.html">Hand Bouquets</a></h3>
+                <h3><a href="C-flowerInVase.html">Flower in vase</a></h3>
+                <h3><a href="C-indoorPlants.html">Indore plants</a></h3>
+                <h3><a href="C-ArtificialRose.html">Artificial rose</a></h3>
+                <h3><a href="C-TeddyBears.html">Teddy bears</a></h3>
+                <h3><a href="C-Chocolate.html">Chocolate</a></h3>
+            </td>
+            <td rowspan="2">
+                <h1>Get to know us:</h1>
+                <h3><a href="G-AboutUs.html">About us</a></h3>
+                <h3><a href="G-history.html">Our history</a></h3>
+                <h3><a href="G-PrivacyPolicy.html">Privacy policy</a></h3>
+                <h3><a href="G-TermsAndConditions.html">Return Policy</a></h3>
+                <h3><a href="G-TermsAndConditions2.html">Terms and conditions</a></h3>
+            </td>
+            <td rowspan="2">
+                <h1>Customer<br>service:</h1>
+                <h3><a href="T-Contact.html">Contact us</a></h3>
+                <h3><a href="T-comment.html">Add comment</a></h3>
+                <h3><a href="https://wa.me/+962779464018">Whats:+962779464018</a></h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h1>Download app:</h1>
+                <a href=""><img class="app" src="topdottom/img/Google.png" alt="Google"></a>
+                <a href=""><img class="app" src="topdottom/img/abb story.png" alt="story"></a>
+                <a href=""><img class="app" src="topdottom/img/app gallery.png" alt="gallery"></a>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
