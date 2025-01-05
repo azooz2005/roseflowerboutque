@@ -82,6 +82,7 @@
         <div>
         <img src="Login/login img/تنزيل.jpg" class="head2">
         </div>
+        <form >
         <div class="divbox">
             <p>
             <label>Email</label>
@@ -102,23 +103,24 @@
             <label for="remember">Remember me</label>
         </p>
         </div>
-        <div class="divbox">
+        <div class="divbox2">
             <p>
-            <button class="button"><a href="" class="link" id="login">Login</a></button>&nbsp;
-            <button onclick="showPopup()" class="forgotpass">Forgot Password?</button>
-            <div class="popup-overlay" id="popup">
-              <div class="popup-content">
+            <button class="button2"><a href="index.html" class="link2" id="login2">Login</a></button>&nbsp;
+        </form>
+            <button onclick="showPopup2()" class="forgotpass2">Forgot Password?</button>
+            <div class="popup2-overlay" id="popup2">
+              <div class="popup2-content">
                 <p>Forgot Password?
-                <br><br><sub class="emailtext">Email</sub></p>
-                <input type="email" id="email" placeholder="Enter your email" required>
+                <br><br><sub class="emailtext2">Email</sub></p>
+                <input type="email" id="email"  required>
                 <button onclick="submitEmail()">send</button>&nbsp;
-                <button class="close-btn" onclick="closePopup()">cancel</button>
+                <button class="close-btn2" onclick="closePopup2()">cancel</button>
               </div>
             </div>
             </p>
         </div>
         <div class="divbox">
-            <p>Don't have an account?<a href="Create Account.html" class="link">&nbsp; Create Account</a></p>
+            <p>Don't have an account?<a href="Create Account.html" class="link2">&nbsp; Create Account</a></p>
         </div>
         <hr>
         <div>
@@ -177,13 +179,13 @@
     </table>
     
     <script>
-        function showPopup() {
-          const popup = document.getElementById('popup');
+        function showPopup2() {
+          const popup = document.getElementById('popup2');
           popup.style.display = 'flex';
         }
     
-        function closePopup() {
-          const popup = document.getElementById('popup');
+        function closePopup2() {
+          const popup = document.getElementById('popup2');
           popup.style.display = 'none';
         }
     
@@ -197,7 +199,7 @@
     
           if (validateEmail(email)) {
             alert(`Email has been sent: ${email}`);
-            closePopup();
+            closePopup2();
           } else {
             alert('Please enter a valid email.');
           }
