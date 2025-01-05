@@ -1,0 +1,117 @@
+.maindiv{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 40%;
+    border: 2px;
+    border-style:solid;
+    border-color: rgb(94, 9, 9);
+    border-radius: 10px;
+}
+.head2{
+    width: 25%;
+    margin-left: 225px;
+}
+.divbox{
+    margin-left: 100px;
+}
+.inputbox{
+    width: 400px;
+    height: 30px;
+}
+p{
+    font-size:large;
+}
+.link{
+    text-decoration-line: none;
+    color: blue;
+}
+.button{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+}
+#login{
+    color: black;
+}
+.text{
+    margin-left: 250px;
+    font-family:'Times New Roman', Times, serif;
+}
+.img{
+    width: 16%;
+    margin-bottom: 3px;
+}
+.imgfacebook{
+    width: 14%;
+    margin-bottom: 7px;
+}
+.imgtwitter{
+    width: 18%;
+}
+.loginwithpic{
+    margin-left: 220px;
+}
+.forgotpass{
+    border-style: none;
+    background-color: white;
+    color: blue;
+}
+.emailtext{
+    margin-right: 245px;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+
+  .popup-content h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .popup-content input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .popup-content button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .popup-content button:hover {
+    background-color: rgb(94, 9, 9);
+  }
+
+  .close-btn {
+    background-color: #dc3545;
+  }
+
+  .close-btn:hover {
+    background-color: #a71d2a;
+  }

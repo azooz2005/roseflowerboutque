@@ -1,0 +1,71 @@
+table{
+    width: 100%;
+    margin-left: -1px;
+}
+.side{
+    width: 20%;
+    padding-top: 10px;
+}
+.border {
+    margin-top: -20px;
+    margin-bottom: 100px;
+    border-collapse: collapse;
+    box-shadow: 2px 0 4px 8px rgb(94, 9, 9);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+#c{
+    img{
+        width: 80%;
+        height: 350px;
+        padding: 10px 30px;
+    }
+    .addtocart{
+        width: 100px; 
+        height: 70px;
+        margin-left: 200px;
+        margin-top: -60px;
+    }
+}
+a{
+    text-decoration-line: none;
+    color: black;
+    font-size:larger; 
+}
+.select{
+    font-size: small;
+     border:solid;
+    
+}
+.addtocart{
+    width: 100px; 
+    height: 70px;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+table b{
+    color: rgb(94, 9, 9);
+    font-size:xx-large;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+.spaceleft{
+    padding-left: 15px;
+}
+#firstline{
+    padding-top: 130px;
+}
+sub{
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+h2{
+    padding-left: 25px;  
+    color: rgb(94, 9, 9);
+    text-transform: capitalize;
+}
+.spacepic{
+    width: 28%;
+}
