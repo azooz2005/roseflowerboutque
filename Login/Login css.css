@@ -60,6 +60,9 @@ a{
     border-style: none;
     background-color: white;
     color: blue;
+    float: right;
+    margin-right: 220px;
+    margin-top: -40px;
 }
 .emailtext2{
     margin-right: 190px;
