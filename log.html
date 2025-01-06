@@ -51,7 +51,7 @@
         <button onclick="showPopup()" class="forgotpass" id="button"></button>
         <div class="popup-overlay" id="popup">
             <div class="popup-content">
-                <input type="email" id="email" placeholder="search" required>
+                <input placeholder="search" required>
                 <button onclick="closePopup()">search</button>&nbsp;
                 <button class="close-btn" onclick="closePopup()">cancel</button>
             </div>
@@ -99,11 +99,11 @@
         </div>
         <div class="divbox">
             <p>
-            <input type="checkbox" id="remember">
+            <input type="checkbox" id="remember" required>
             <label for="remember">Remember me</label>
         </p>
         </div>
-        <div class="divbox2">
+        <div >
             <p>
             <button class="button2"><a href="index.html" class="link2" id="login2">Login</a></button>&nbsp;
         </form>
@@ -112,9 +112,36 @@
               <div class="popup2-content">
                 <p>Forgot Password?
                 <br><br><sub class="emailtext2">Email</sub></p>
-                <input type="email" id="email"  required>
+                <input type="email" id="email" >
                 <button onclick="submitEmail()">send</button>&nbsp;
                 <button class="close-btn2" onclick="closePopup2()">cancel</button>
+                <script>
+                    function showPopup2() {
+                      const popup = document.getElementById('popup2');
+                      popup.style.display = 'flex';
+                    }
+                
+                    function closePopup2() {
+                      const popup = document.getElementById('popup2');
+                      popup.style.display = 'none';
+                    }
+                
+                   function validateEmail(email) {
+                      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                      return emailRegex.test(email);
+                    }
+                
+                    function submitEmail() {
+                      const email = document.getElementById('email').value;
+                
+                      if (validateEmail(email)) {
+                        alert(`Email has been sent: ${email}`);
+                        closePopup2();
+                      } else {
+                        alert('Please enter a valid email.');
+                      }
+                    }
+                  </script>
               </div>
             </div>
             </p>
@@ -177,34 +204,7 @@
             </td>
         </tr>
     </table>
-    
-    <script>
-        function showPopup2() {
-          const popup = document.getElementById('popup2');
-          popup.style.display = 'flex';
-        }
-    
-        function closePopup2() {
-          const popup = document.getElementById('popup2');
-          popup.style.display = 'none';
-        }
-    
-        function validateEmail(email) {
-          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-          return emailRegex.test(email);
-        }
-    
-        function submitEmail() {
-          const email = document.getElementById('email').value;
-    
-          if (validateEmail(email)) {
-            alert(`Email has been sent: ${email}`);
-            closePopup2();
-          } else {
-            alert('Please enter a valid email.');
-          }
-        }
-      </script>
+
 
     
 </body>
